@@ -1,14 +1,9 @@
-﻿
-Monitor miMonitor = new Monitor();
-miMonitor.Color = "Negro";
-miMonitor.Largo = 73.8;
-miMonitor.Alto = 44.9;
-miMonitor.Precio = 1299;
+﻿namespace POO_Platzi;
 
-class Monitor 
+class Program
 {
-    public string Color;
-    public double Largo;
-    public double Alto;
-    public double Precio;
+    static void Main()
+    {
+        return;
+    }
 }
