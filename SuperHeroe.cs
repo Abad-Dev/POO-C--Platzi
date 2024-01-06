@@ -2,8 +2,9 @@ using System.Text;
 
 namespace POO_Platzi;
 
-class SuperHeroe : Heroe
+class SuperHeroe : Heroe, ISuperHeroe
 {
+    public int Id { get;set; }
     public override string Nombre { get;set; }
     public string NombreEIdentidadSecreta { get;set; }
     public List<SuperPoder> SuperPoderes { get;set; }
